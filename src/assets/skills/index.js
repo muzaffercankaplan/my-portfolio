@@ -1,0 +1,7 @@
+export { default as html } from "./html.png"
+export { default as css } from "./css.png"
+export { default as javascript } from "./javascript.png"
+export { default as firebase } from "./firebase.png"
+export { default as github } from "./github1.png"
+export { default as react } from "./react.png"
+export { default as tailwind } from "./tailwind.png"
