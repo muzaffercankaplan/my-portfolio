@@ -60,7 +60,7 @@ const Skill = () => {
                 <h2 className='tracking-widest uppercase text-hoverc mb-4'>
                     Skills
                 </h2>
-                <div className='grid grid-cols-2  lg:grid-cols-4 gap-8 text-center'>
+                <div className='grid grid-cols-2  lg:grid-cols-3 gap-8 text-center'>
 
                     {data.map(({ id, title, image, style }) => (
 

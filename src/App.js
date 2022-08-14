@@ -1,21 +1,15 @@
-import React from 'react'
-import Home from './components/Home/Home'
-import Navbar from './components/Navbar/Navbar'
-import About from "./components/About/About"
-import Skill from "./components/Skills/Skill"
-import Projects from "./components/Projects/Projects"
-import Contact from './components/Contact/Contact'
+import HomePage from './Pages/HomePage'
+import {BrowserRouter, Route,Routes } from "react-router-dom"
+import ProjectDetails from './Pages/ProjectDetails'
 
 const App = () => {
   return (
-    <div >
-      <Navbar />
-      <Home />
-      <About />
-      <Skill />
-      <Projects />
-      <Contact />
-    </div>
+    <BrowserRouter >
+      <Routes>
+        <Route path='/' element= {<HomePage/>} />
+        <Route  path='/Details/:id' element= {<ProjectDetails/>} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
